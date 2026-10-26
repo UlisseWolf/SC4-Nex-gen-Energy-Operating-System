@@ -187,8 +187,8 @@ The complete changelog and the open design questions are in [`docs/README.it.md`
 
 ## License
 
-This project is licensed under the **GNU Lesser General Public License v3.0**. See [`LICENSE`](LICENSE); the GNU
-General Public License v3.0 it builds on is in [`COPYING`](COPYING).
+This project is licensed under the **GNU Lesser General Public License v3.0**. See [`LICENSE`](LICENSE). The
+LGPL-3.0 supplements the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 Third-party code keeps its own license:
 - `vendor/gzcom-dll`: LGPL 2.1;
