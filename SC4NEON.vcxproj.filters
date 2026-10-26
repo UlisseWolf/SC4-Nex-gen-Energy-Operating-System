@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NEON">
+      <UniqueIdentifier>{7D0C1E52-3F41-4C6B-9A0E-5B2C8E1D4A10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gzcom-dll">
+      <UniqueIdentifier>{2B8F6A31-91C4-4E57-8D2A-0C6E3F7B9D21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\NeonDllDirector.cpp"><Filter>NEON</Filter></ClCompile>
+    <ClCompile Include="src\NeonEnforcement.cpp"><Filter>NEON</Filter></ClCompile>
+    <ClCompile Include="src\NeonEnforcementPatch.cpp"><Filter>NEON</Filter></ClCompile>
+    <ClCompile Include="src\NeonGridModel.cpp"><Filter>NEON</Filter></ClCompile>
+    <ClCompile Include="src\NeonLog.cpp"><Filter>NEON</Filter></ClCompile>
+    <ClCompile Include="src\NeonLua.cpp"><Filter>NEON</Filter></ClCompile>
+    <ClCompile Include="src\NeonRules.cpp"><Filter>NEON</Filter></ClCompile>
+    <ClCompile Include="vendor\gzcom-dll\gzcom-dll\src\cRZBaseString.cpp"><Filter>gzcom-dll</Filter></ClCompile>
+    <ClCompile Include="vendor\gzcom-dll\gzcom-dll\src\cRZBaseVariant.cpp"><Filter>gzcom-dll</Filter></ClCompile>
+    <ClCompile Include="vendor\gzcom-dll\gzcom-dll\src\cRZCOMDllDirector.cpp"><Filter>gzcom-dll</Filter></ClCompile>
+    <ClCompile Include="vendor\gzcom-dll\gzcom-dll\src\SCLuaUtil.cpp"><Filter>gzcom-dll</Filter></ClCompile>
+    <ClCompile Include="vendor\gzcom-dll\gzcom-dll\src\SCPropertyUtil.cpp"><Filter>gzcom-dll</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\NeonEnforcement.h"><Filter>NEON</Filter></ClInclude>
+    <ClInclude Include="src\NeonGridModel.h"><Filter>NEON</Filter></ClInclude>
+    <ClInclude Include="src\NeonIds.h"><Filter>NEON</Filter></ClInclude>
+    <ClInclude Include="src\NeonLog.h"><Filter>NEON</Filter></ClInclude>
+    <ClInclude Include="src\NeonLua.h"><Filter>NEON</Filter></ClInclude>
+    <ClInclude Include="src\NeonRules.h"><Filter>NEON</Filter></ClInclude>
+    <ClInclude Include="src\version.h"><Filter>NEON</Filter></ClInclude>
+    <None Include="src\NeonLegacyGroups.inc"><Filter>NEON</Filter></None>
+    <None Include="src\NeonLegacyValues.inc"><Filter>NEON</Filter></None>
+  </ItemGroup>
+</Project>
